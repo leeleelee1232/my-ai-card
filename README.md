@@ -14,13 +14,15 @@ AI를 활용해 명함 디자인 이미지를 생성하는 웹 애플리케이�
 - Deployment: Netlify, Render
 
 ## 프로젝트 구조
-my-ai-card
--backend/server.js
--public/sample(1단계 샘플 이미지)
--src/app.js
-package.json
-README.md
-...
+- my-ai-card
+- ├─ backend/
+- │ └─ server.js
+- ├─ public/
+- │ └─ sample(1단계 샘플 이미지)   
+- ├─ src/
+- │ └─app.js
+- ├─ package.json
+- └─ README.md
 
 ## 주요 기능
 - 단면/양면 구조
